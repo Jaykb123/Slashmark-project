@@ -26,7 +26,7 @@ class EncryptionDecryptionGUI:
         self.encrypt_button = Button(self.window, text="ENCRYPT", command=self.encrypt,bg='Yellow',fg='black',font='roboto 15')
         self.decrypt_button = Button(self.window, text="DECRYPT", command=self.decrypt,bg='Green',fg='black',font='roboto 15')
         self.reset_button= Button(self.window, text="RESET",command=self.reset,bg='red',fg='black',font='roboto 15')
-        self.stamp = Label(self.window, text="-Nikhil Surve-",bg='navy blue',fg='white', font='tahoma 15' )
+        self.stamp = Label(self.window, text="-Jay KB-",bg='navy blue',fg='white', font='tahoma 15' )
 
         # Place the widgets on the window
         self.input_text.pack(padx=0, pady=20,)
